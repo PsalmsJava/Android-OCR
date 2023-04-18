@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AdminMenu">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="51dp"
+        android:src="@drawable/unnamed"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:layout_margin="18dp"
+        android:id="@+id/buttonAddOfficer"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:text="Add Officer"/>
+
+    <Button
+        android:layout_margin="18dp"
+        android:id="@+id/buttonUpdateOfficer"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:text="Update Officer"/>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".AddOfficer">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="160dp"
+        android:src="@drawable/unnamed"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"/>
+
+    <EditText
+        android:id="@+id/edtOfficerUsername"
+        android:layout_margin="12dp"
+        android:hint="Officer Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtOfficerFullname"
+        android:layout_margin="12dp"
+        android:hint="Officer Fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtOfficerPassword"
+        android:layout_margin="12dp"
+        android:hint="Officer Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtOfficerRank"
+        android:layout_margin="12dp"
+        android:hint="Officer Rank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Add Officer"
+        android:id="@+id/adminButtonAddOfficer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
